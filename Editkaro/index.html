@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Editkaro Logo" />
+        <span>Editkaro.in</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>We Craft Viral Videos & High-Impact Ads</h1>
+      <p>At Editkaro.in, we turn your ideas into stunning short-form, long-form, and ad-ready videos that capture attention.</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn primary">See Our Work</a>
+        <a href="#contact" class="btn secondary">Book a Call</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Editkaro.in is a creative video editing and social media marketing agency. 
+      We specialize in crafting engaging content — from short-form TikTok/Reels, 
+      to eCommerce ads, anime edits, football highlights, gaming videos, and 
+      cinematic documentaries. Our mission is simple: make your brand unforgettable.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="short">Short-form</button>
+      <button class="filter-btn" data-category="long">Long-form</button>
+      <button class="filter-btn" data-category="gaming">Gaming</button>
+      <button class="filter-btn" data-category="football">Football</button>
+      <button class="filter-btn" data-category="ads">Ads</button>
+      <button class="filter-btn" data-category="anime">Anime</button>
+      <button class="filter-btn" data-category="documentary">Documentary</button>
+      <button class="filter-btn" data-category="color">Color Grading</button>
+    </div>
+    <div id="portfolio-grid" class="grid"></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+    <div class="socials">
+      <a href="#">Instagram</a> | 
+      <a href="#">LinkedIn</a> | 
+      <a href="#">YouTube</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Editkaro.in. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
